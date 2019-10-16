@@ -1,6 +1,6 @@
 # AspNetCore Boilerplate Library
 
-Following features can be enabled to boilerplate aspnet core applications:
+### Features can be enabled by the library:
 * Swagger
 * Serilog (Elastic search and Kibana)
 * Correlation Id
@@ -8,10 +8,10 @@ Following features can be enabled to boilerplate aspnet core applications:
 * Api client handler for logging non-success status code
 * CORS
 
-By following configuration:
+### Configuration to use:
 
 Startup.cs:
-
+```
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
     {
         app.UseBoilerplate(env);
@@ -22,9 +22,9 @@ Startup.cs:
                 .AddHttpMessageHandler<CorrelationIdDelegatingHandler>()
                 .AddHttpMessageHandler<NonSuccessStatusCodeHandler>();
     }
- 
+``` 
  Program.cs:
- 
+ ```
     public class Program
     { 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
@@ -32,7 +32,7 @@ Startup.cs:
             .UseBoilerplate()
             .UseStartup<Startup>();
     }
-    
+ ```   
  Configurations for MVC, serilog and swagger can also be overrided by passing BoilerPlateOptions to UseBoilerplate method.
     
     
