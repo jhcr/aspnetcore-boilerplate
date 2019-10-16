@@ -1,0 +1,2040 @@
+{
+  "Common.AspNetCore.dll": {
+    "C:\\Users\\terec\\source\\repos\\Common\\Common.AspNetCore\\Security\\ApiKeyMiddleware.cs": {
+      "Common.AspNetCore.Security.ApiKeyMiddleware": {
+        "System.Boolean Common.AspNetCore.Security.ApiKeyMiddleware::ShouldSkip(Microsoft.AspNetCore.Http.HttpContext)": {
+          "Lines": {
+            "92": 9,
+            "93": 9,
+            "94": 10,
+            "95": 1,
+            "96": 8,
+            "97": 9,
+            "98": 1,
+            "100": 7,
+            "101": 9
+          },
+          "Branches": [
+            {
+              "Line": 93,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 93,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 93,
+              "Offset": 25,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 8
+            },
+            {
+              "Line": 93,
+              "Offset": 44,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 8
+            },
+            {
+              "Line": 93,
+              "Offset": 82,
+              "EndOffset": 84,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 93,
+              "Offset": 82,
+              "EndOffset": 88,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 8
+            },
+            {
+              "Line": 96,
+              "Offset": 99,
+              "EndOffset": 101,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 96,
+              "Offset": 99,
+              "EndOffset": 131,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 7
+            },
+            {
+              "Line": 96,
+              "Offset": 134,
+              "EndOffset": 136,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 96,
+              "Offset": 134,
+              "EndOffset": 140,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 7
+            }
+          ]
+        },
+        "System.Boolean Common.AspNetCore.Security.ApiKeyMiddleware::ValidateApiKey(System.String)": {
+          "Lines": {
+            "104": 7,
+            "105": 7,
+            "106": 2,
+            "107": 2,
+            "110": 5,
+            "111": 5,
+            "113": 7
+          },
+          "Branches": [
+            {
+              "Line": 105,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 105,
+              "Offset": 7,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 105,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 105,
+              "Offset": 31,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Void Common.AspNetCore.Security.ApiKeyMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action`1<Common.AspNetCore.Security.APiKeyOptions>,Microsoft.Extensions.Logging.ILogger`1<Common.AspNetCore.Security.ApiKeyMiddleware>)": {
+          "Lines": {
+            "25": 13,
+            "27": 13,
+            "28": 13,
+            "29": 13,
+            "30": 0,
+            "32": 13,
+            "34": 13,
+            "35": 0,
+            "36": 13,
+            "37": 13,
+            "38": 1,
+            "40": 12,
+            "42": 12,
+            "43": 12
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 25,
+              "EndOffset": 43,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 13
+            },
+            {
+              "Line": 34,
+              "Offset": 63,
+              "EndOffset": 65,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 63,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 13
+            },
+            {
+              "Line": 34,
+              "Offset": 75,
+              "EndOffset": 77,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 75,
+              "EndOffset": 90,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 13
+            },
+            {
+              "Line": 34,
+              "Offset": 126,
+              "EndOffset": 128,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 126,
+              "EndOffset": 144,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 13
+            },
+            {
+              "Line": 36,
+              "Offset": 151,
+              "EndOffset": 153,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 151,
+              "EndOffset": 157,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 13
+            },
+            {
+              "Line": 36,
+              "Offset": 167,
+              "EndOffset": 169,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 36,
+              "Offset": 176,
+              "EndOffset": 178,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 176,
+              "EndOffset": 182,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 1
+            },
+            {
+              "Line": 36,
+              "Offset": 167,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 12
+            },
+            {
+              "Line": 36,
+              "Offset": 199,
+              "EndOffset": 201,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 1
+            },
+            {
+              "Line": 36,
+              "Offset": 199,
+              "EndOffset": 217,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 12
+            }
+          ]
+        }
+      },
+      "Common.AspNetCore.Security.ApiKeyMiddleware/<Invoke>d__4": {
+        "System.Void Common.AspNetCore.Security.ApiKeyMiddleware/<Invoke>d__4::MoveNext()": {
+          "Lines": {
+            "46": 9,
+            "47": 9,
+            "48": 2,
+            "49": 2,
+            "50": 2,
+            "53": 7,
+            "55": 7,
+            "56": 7,
+            "57": 2,
+            "58": 2,
+            "59": 2,
+            "60": 5,
+            "61": 5,
+            "62": 2,
+            "63": 2,
+            "64": 2,
+            "66": 7,
+            "67": 2,
+            "68": 2,
+            "69": 2,
+            "72": 5,
+            "73": 5,
+            "74": 5,
+            "75": 5,
+            "76": 5,
+            "77": 5,
+            "78": 5,
+            "79": 5,
+            "81": 5,
+            "83": 5,
+            "85": 5,
+            "87": 5,
+            "88": 5,
+            "89": 9
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 59,
+              "EndOffset": 61,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 49,
+              "Offset": 97,
+              "EndOffset": 166,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 47,
+              "Offset": 59,
+              "EndOffset": 179,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 7
+            },
+            {
+              "Line": 55,
+              "Offset": 211,
+              "EndOffset": 213,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 7
+            },
+            {
+              "Line": 55,
+              "Offset": 257,
+              "EndOffset": 259,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 55,
+              "Offset": 257,
+              "EndOffset": 316,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 5
+            },
+            {
+              "Line": 60,
+              "Offset": 337,
+              "EndOffset": 339,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 5
+            },
+            {
+              "Line": 60,
+              "Offset": 383,
+              "EndOffset": 385,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 2
+            },
+            {
+              "Line": 60,
+              "Offset": 383,
+              "EndOffset": 440,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 7
+            },
+            {
+              "Line": 66,
+              "Offset": 461,
+              "EndOffset": 463,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 2
+            },
+            {
+              "Line": 68,
+              "Offset": 500,
+              "EndOffset": 571,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 2
+            },
+            {
+              "Line": 66,
+              "Offset": 461,
+              "EndOffset": 584,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 5
+            },
+            {
+              "Line": 87,
+              "Offset": 808,
+              "EndOffset": 876,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 5
+            }
+          ]
+        }
+      },
+      "Common.AspNetCore.Security.APiKeyOptions": {
+        "System.Collections.Generic.ICollection`1<System.String> Common.AspNetCore.Security.APiKeyOptions::get_ValidApiKeys()": {
+          "Lines": {
+            "121": 30
+          },
+          "Branches": []
+        },
+        "System.String Common.AspNetCore.Security.APiKeyOptions::get_NameInHeader()": {
+          "Lines": {
+            "125": 41
+          },
+          "Branches": []
+        },
+        "System.String Common.AspNetCore.Security.APiKeyOptions::get_NameInQuery()": {
+          "Lines": {
+            "129": 23
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<System.String> Common.AspNetCore.Security.APiKeyOptions::get_PathSegmentsToInclude()": {
+          "Lines": {
+            "133": 12
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<System.String> Common.AspNetCore.Security.APiKeyOptions::get_PathSegmentsToExclude()": {
+          "Lines": {
+            "137": 11
+          },
+          "Branches": []
+        },
+        "Common.AspNetCore.Security.APiKeyOptions Common.AspNetCore.Security.APiKeyOptions::get_Value()": {
+          "Lines": {
+            "139": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\terec\\source\\repos\\Common\\Common.AspNetCore\\Logging\\CorrelationIdMiddleware.cs": {
+      "Common.AspNetCore.Logging.CorrelationIdMiddleware": {
+        "System.Void Common.AspNetCore.Logging.CorrelationIdMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate)": {
+          "Lines": {
+            "12": 6,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void Common.AspNetCore.Logging.CorrelationIdMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,System.Action`1<Common.AspNetCore.Logging.CorrelationIdOptions>)": {
+          "Lines": {
+            "19": 6,
+            "20": 6,
+            "21": 6,
+            "23": 6,
+            "25": 6,
+            "26": 1,
+            "27": 1,
+            "29": 5
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 39,
+              "EndOffset": 43,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            },
+            {
+              "Line": 23,
+              "Offset": 39,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 6
+            },
+            {
+              "Line": 25,
+              "Offset": 74,
+              "EndOffset": 76,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 25,
+              "Offset": 74,
+              "EndOffset": 88,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            }
+          ]
+        }
+      },
+      "Common.AspNetCore.Logging.CorrelationIdMiddleware/<>c__DisplayClass4_0": {
+        "System.Threading.Tasks.Task Common.AspNetCore.Logging.CorrelationIdMiddleware/<>c__DisplayClass4_0::<Invoke>b__0()": {
+          "Lines": {
+            "41": 3,
+            "42": 3,
+            "43": 3,
+            "44": 3,
+            "45": 3,
+            "46": 3,
+            "47": 3
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 43,
+              "EndOffset": 96,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Common.AspNetCore.Logging.CorrelationIdMiddleware/<Invoke>d__4": {
+        "System.Void Common.AspNetCore.Logging.CorrelationIdMiddleware/<Invoke>d__4::MoveNext()": {
+          "Lines": {
+            "32": 3,
+            "33": 3,
+            "35": 3,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "40": 3,
+            "49": 3,
+            "51": 3,
+            "53": 3
+          },
+          "Branches": [
+            {
+              "Line": 35,
+              "Offset": 143,
+              "EndOffset": 145,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 143,
+              "EndOffset": 174,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 51,
+              "Offset": 291,
+              "EndOffset": 358,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "Common.AspNetCore.Logging.CorrelationIdOptions": {
+        "System.String Common.AspNetCore.Logging.CorrelationIdOptions::get_Header()": {
+          "Lines": {
+            "61": 20
+          },
+          "Branches": []
+        },
+        "Common.AspNetCore.Logging.CorrelationIdOptions Common.AspNetCore.Logging.CorrelationIdOptions::get_Value()": {
+          "Lines": {
+            "63": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\terec\\source\\repos\\Common\\Common.AspNetCore\\Logging\\Serilog\\SerilogContextMiddleware.cs": {
+      "Common.AspNetCore.Logging.Serilog.HttpContextToSerilogMiddleware": {
+        "System.Void Common.AspNetCore.Logging.Serilog.HttpContextToSerilogMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.AspNetCore.Http.IHttpContextAccessor)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      },
+      "Common.AspNetCore.Logging.Serilog.HttpContextToSerilogMiddleware/<Invoke>d__3": {
+        "System.Void Common.AspNetCore.Logging.Serilog.HttpContextToSerilogMiddleware/<Invoke>d__3::MoveNext()": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 44,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 86,
+              "EndOffset": 88,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 44,
+              "EndOffset": 124,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 86,
+              "EndOffset": 152,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\terec\\source\\repos\\Common\\Common.AspNetCore\\Logging\\Serilog\\SerilogHttpContextEnricher.cs": {
+      "Common.AspNetCore.Logging.Serilog.SerilogHttpContextEnricher": {
+        "System.Void Common.AspNetCore.Logging.Serilog.SerilogHttpContextEnricher::Enrich(Serilog.Events.LogEvent,Serilog.Core.ILogEventPropertyFactory)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 37,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 37,
+              "EndOffset": 43,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Common.AspNetCore.Logging.Serilog.SerilogHttpContextEnricher::.ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\terec\\source\\repos\\Common\\Common.AspNetCore\\Extensions\\ApiKeyMiddlewareExtension.cs": {
+      "Common.AspNetCore.Extensions.ApiKeyMiddlewareExtension": {
+        "Microsoft.AspNetCore.Builder.IApplicationBuilder Common.AspNetCore.Extensions.ApiKeyMiddlewareExtension::UseCustomApiKey(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action`1<Common.AspNetCore.Security.APiKeyOptions>)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\terec\\source\\repos\\Common\\Common.AspNetCore\\Extensions\\Boilerplate.cs": {
+      "Common.AspNetCore.Extensions.Boilerplate": {
+        "Microsoft.AspNetCore.Hosting.IWebHostBuilder Common.AspNetCore.Extensions.Boilerplate::UseBoilerplate(Microsoft.AspNetCore.Hosting.IWebHostBuilder,Common.AspNetCore.Extensions.BoilerPlateOptions)": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 39,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Builder.IApplicationBuilder Common.AspNetCore.Extensions.Boilerplate::UseBoilerplate(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0,
+            "68": 0,
+            "70": 0,
+            "72": 0,
+            "74": 0,
+            "75": 0
+          },
+          "Branches": [
+            {
+              "Line": 53,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 8,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 54,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 54,
+              "EndOffset": 67,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 97,
+              "EndOffset": 99,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 97,
+              "EndOffset": 122,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Common.AspNetCore.Extensions.BoilerPlateOptions": {
+        "System.Action`1<Microsoft.AspNetCore.Mvc.MvcOptions> Common.AspNetCore.Extensions.BoilerPlateOptions::get_MvcSetup()": {
+          "Lines": {
+            "80": 0
+          },
+          "Branches": []
+        },
+        "System.Action`1<Serilog.LoggerConfiguration> Common.AspNetCore.Extensions.BoilerPlateOptions::get_SerilogLocalSetup()": {
+          "Lines": {
+            "81": 0
+          },
+          "Branches": []
+        },
+        "System.Action`1<Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions> Common.AspNetCore.Extensions.BoilerPlateOptions::get_SwaggerGenSetup()": {
+          "Lines": {
+            "82": 0
+          },
+          "Branches": []
+        }
+      },
+      "Common.AspNetCore.Extensions.Boilerplate/<>c__DisplayClass0_0": {
+        "System.Void Common.AspNetCore.Extensions.Boilerplate/<>c__DisplayClass0_0::<UseBoilerplate>b__0(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 33,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 16,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 52,
+              "EndOffset": 54,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 52,
+              "EndOffset": 76,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Common.AspNetCore.Extensions.Boilerplate/<>c__DisplayClass0_0::<UseBoilerplate>b__1(Microsoft.AspNetCore.Mvc.MvcOptions)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 20,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 31,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\terec\\source\\repos\\Common\\Common.AspNetCore\\Extensions\\CorrelationIdMiddlewareExtension.cs": {
+      "Common.AspNetCore.Extensions.CorrelationIdMiddlewareExtension": {
+        "Microsoft.AspNetCore.Builder.IApplicationBuilder Common.AspNetCore.Extensions.CorrelationIdMiddlewareExtension::UseCorrelationIdToHttpContext(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action`1<Common.AspNetCore.Logging.CorrelationIdOptions>)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\terec\\source\\repos\\Common\\Common.AspNetCore\\Extensions\\HealthCheckExtension.cs": {
+      "Common.AspNetCore.Extensions.HealthCheckExtension": {
+        "Microsoft.AspNetCore.Builder.IApplicationBuilder Common.AspNetCore.Extensions.HealthCheckExtension::UseCustomHealthChecks(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action`1<Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions>,System.String)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 13,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 46,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 46,
+              "EndOffset": 58,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 61,
+              "EndOffset": 63,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 61,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Common.AspNetCore.Extensions.HealthCheckExtension/<>c/<<UseCustomHealthChecks>b__0_0>d": {
+        "System.Void Common.AspNetCore.Extensions.HealthCheckExtension/<>c/<<UseCustomHealthChecks>b__0_0>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 8,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 83,
+              "EndOffset": 85,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 83,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 192,
+              "EndOffset": 194,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 8,
+              "EndOffset": 231,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 192,
+              "EndOffset": 259,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\terec\\source\\repos\\Common\\Common.AspNetCore\\Extensions\\HttpContextToserilogMiddlewareExtension.cs": {
+      "Common.AspNetCore.Extensions.HttpContextToSerilogMiddlewareExtension": {
+        "System.Void Common.AspNetCore.Extensions.HttpContextToSerilogMiddlewareExtension::AddHttpContextToSerilog(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Builder.IApplicationBuilder Common.AspNetCore.Extensions.HttpContextToSerilogMiddlewareExtension::UseHttpContextToSerilog(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\terec\\source\\repos\\Common\\Common.AspNetCore\\Extensions\\SerilogExtension.cs": {
+      "Common.AspNetCore.Extensions.SerilogExtension": {
+        "Microsoft.AspNetCore.Hosting.IWebHostBuilder Common.AspNetCore.Extensions.SerilogExtension::UseCustomSerilog(Microsoft.AspNetCore.Hosting.IWebHostBuilder,System.Action`1<Serilog.LoggerConfiguration>)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0
+          },
+          "Branches": []
+        }
+      },
+      "Common.AspNetCore.Extensions.SerilogExtension/<>c__DisplayClass0_0": {
+        "System.Void Common.AspNetCore.Extensions.SerilogExtension/<>c__DisplayClass0_0::<UseCustomSerilog>b__0(Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Serilog.LoggerConfiguration)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 12,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 25,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 43,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 61,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 89,
+              "EndOffset": 91,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 89,
+              "EndOffset": 94,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 101,
+              "EndOffset": 103,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 101,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 129,
+              "EndOffset": 131,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 129,
+              "EndOffset": 134,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 141,
+              "EndOffset": 143,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 141,
+              "EndOffset": 147,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 61,
+              "EndOffset": 236,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 252,
+              "EndOffset": 254,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 265,
+              "EndOffset": 267,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 252,
+              "EndOffset": 285,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 265,
+              "EndOffset": 285,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 288,
+              "EndOffset": 290,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 313,
+              "EndOffset": 315,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 313,
+              "EndOffset": 318,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 325,
+              "EndOffset": 327,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 325,
+              "EndOffset": 331,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 337,
+              "EndOffset": 339,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 337,
+              "EndOffset": 345,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 288,
+              "EndOffset": 402,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 420,
+              "EndOffset": 422,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 420,
+              "EndOffset": 465,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 485,
+              "EndOffset": 487,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 495,
+              "EndOffset": 497,
+              "Path": 0,
+              "Ordinal": 32,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 495,
+              "EndOffset": 500,
+              "Path": 1,
+              "Ordinal": 33,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 485,
+              "EndOffset": 508,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\terec\\source\\repos\\Common\\Common.AspNetCore\\Extensions\\SwaggerExtension.cs": {
+      "Common.AspNetCore.Extensions.SwaggerExtension": {
+        "Microsoft.AspNetCore.Builder.IApplicationBuilder Common.AspNetCore.Extensions.SwaggerExtension::UseCustomSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,System.Action`1<Swashbuckle.AspNetCore.Swagger.SwaggerOptions>,System.Action`1<Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIOptions>)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 44,
+              "EndOffset": 86,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Common.AspNetCore.Extensions.SwaggerExtension::AddCustomSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action`1<Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions>)": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0
+          },
+          "Branches": []
+        }
+      },
+      "Common.AspNetCore.Extensions.SwaggerExtension/<>c__DisplayClass0_0": {
+        "System.Void Common.AspNetCore.Extensions.SwaggerExtension/<>c__DisplayClass0_0::<UseCustomSwagger>b__0(Swashbuckle.AspNetCore.Swagger.SwaggerOptions)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 8,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Common.AspNetCore.Extensions.SwaggerExtension/<>c__DisplayClass0_0::<UseCustomSwagger>b__1(Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIOptions)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 35,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 31,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Common.AspNetCore.Extensions.SwaggerExtension/<>c__DisplayClass1_0": {
+        "System.Void Common.AspNetCore.Extensions.SwaggerExtension/<>c__DisplayClass1_0::<AddCustomSwagger>b__0(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 72,
+              "Offset": 94,
+              "EndOffset": 63,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 94,
+              "EndOffset": 96,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 103,
+              "EndOffset": 105,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 103,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\terec\\source\\repos\\Common\\Common.AspNetCore\\ErrorHandling\\ValidateModelFilter.cs": {
+      "Common.AspNetCore.ErrorHandling.ValidateModelFilter": {
+        "System.Void Common.AspNetCore.ErrorHandling.ValidateModelFilter::OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 17,
+              "EndOffset": 77,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Common.AspNetCore.ErrorHandling.ValidateModelFilter::OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)": {
+          "Lines": {
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "76": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "87": 0
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 17,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 93,
+              "EndOffset": 98,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 129,
+              "EndOffset": 131,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 129,
+              "EndOffset": 230,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 316,
+              "EndOffset": 318,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 356,
+              "EndOffset": 358,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 356,
+              "EndOffset": 370,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 385,
+              "EndOffset": 387,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 385,
+              "EndOffset": 394,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 316,
+              "EndOffset": 419,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 93,
+              "EndOffset": 420,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Common.AspNetCore.ErrorHandling.ValidateModelFilter::.ctor(Microsoft.Extensions.Logging.ILogger`1<Common.AspNetCore.ErrorHandling.ValidateModelFilter>)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\terec\\source\\repos\\Common\\Common.AspNetCore\\ApiClient\\CorrelationIdDelegatingHandler.cs": {
+      "Common.AspNetCore.ApiClient.CorrelationIdDelegatingHandler": {
+        "System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> Common.AspNetCore.ApiClient.CorrelationIdDelegatingHandler::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": [
+            {
+              "Line": 37,
+              "Offset": 23,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 23,
+              "EndOffset": 55,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 58,
+              "EndOffset": 60,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 58,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Common.AspNetCore.ApiClient.CorrelationIdDelegatingHandler::.ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,System.Action`1<Common.AspNetCore.ApiClient.CorrelationIdDelegatingHandler/CorrelationIdOptions>)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 39,
+              "EndOffset": 43,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 39,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 63,
+              "EndOffset": 65,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 63,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 81,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Common.AspNetCore.ApiClient.CorrelationIdDelegatingHandler/CorrelationIdOptions": {
+        "System.String Common.AspNetCore.ApiClient.CorrelationIdDelegatingHandler/CorrelationIdOptions::get_Header()": {
+          "Lines": {
+            "52": 0
+          },
+          "Branches": []
+        },
+        "Common.AspNetCore.ApiClient.CorrelationIdDelegatingHandler/CorrelationIdOptions Common.AspNetCore.ApiClient.CorrelationIdDelegatingHandler/CorrelationIdOptions::get_Value()": {
+          "Lines": {
+            "54": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\terec\\source\\repos\\Common\\Common.AspNetCore\\ApiClient\\NonSuccessStatusCodeHandler.cs": {
+      "Common.AspNetCore.ApiClient.NonSuccessStatusCodeHandler": {
+        "System.Void Common.AspNetCore.ApiClient.NonSuccessStatusCodeHandler::.ctor(Microsoft.Extensions.Logging.ILogger`1<Common.AspNetCore.ApiClient.NonSuccessStatusCodeHandler>)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      },
+      "Common.AspNetCore.ApiClient.NonSuccessStatusCodeHandler/<SendAsync>d__2": {
+        "System.Void Common.AspNetCore.ApiClient.NonSuccessStatusCodeHandler/<SendAsync>d__2::MoveNext()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 62,
+              "EndOffset": 131,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 181,
+              "EndOffset": 186,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 246,
+              "EndOffset": 248,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 14,
+              "EndOffset": 288,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 246,
+              "EndOffset": 317,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 181,
+              "EndOffset": 386,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

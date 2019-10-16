@@ -1,0 +1,65 @@
+# ASP.NET Core
+# Build and test ASP.NET Core projects targeting .NET Core.
+# Add steps that run tests, create a NuGet package, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-16.04'
+
+variables:
+  buildConfiguration: 'Release'
+  buildPlatform: 'any cpu'
+  BuildVersion: '1.0.$(Build.BuildID)'
+
+steps:
+- task: NuGetToolInstaller@1
+  inputs:
+    versionSpec: '4.9.4'
+    checkLatest: true
+
+- task: DotNetCoreCLI@2
+  displayName: 'Restore'
+  inputs:
+    command: 'restore'
+    projects: '**/*.csproj'
+    feedsToUse: 'select'
+
+- task: DotNetCoreCLI@2
+  displayName: Build
+  inputs:
+    command: build
+    projects: '**/*.csproj'
+    arguments: '--configuration $(buildConfiguration)'
+    
+- task: DotNetCoreCLI@2
+  displayName: Test
+  inputs:
+    command: test
+    projects: '**/*.Test.csproj'
+    arguments: '--configuration $(buildConfiguration) /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:Include="[Common.*]*"'
+
+- task: PublishCodeCoverageResults@1
+  displayName: 'publish coverage results'
+  inputs:
+    codeCoverageTool: 'cobertura'
+    summaryFileLocation: '**/coverage.cobertura.xml'
+
+- task: DotNetCoreCLI@2
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  displayName: 'Pack'
+  inputs:
+    command: 'pack'
+    packagesToPack: '**/*.*.csproj;!**/*.Test.csproj'
+    versioningScheme: 'byEnvVar'
+    versionEnvVar: 'BuildVersion'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Push'
+  inputs:
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: '/9638fa09-bfae-4350-9ec7-59198cfd3e02'
